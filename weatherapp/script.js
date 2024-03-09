@@ -40,7 +40,7 @@ async function checkWeather(city) {
 
 
 
-  console.log(data);
+  document.querySelector(".weather").style.display=block;
 
 }
 
